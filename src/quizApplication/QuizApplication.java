@@ -2,7 +2,7 @@ package quizApplication;
 
 import java.util.Scanner;
 
-public class Qa {
+public class QuizApplication {
 
 	public static void main(String [] args){
 		Quiz q = new Quiz();
@@ -14,7 +14,7 @@ public class Qa {
 
 //TODO next step: make a GUI
 class Quiz{
-	void begin(){
+	void begin(){ // to trzeba przeprojektować bo od razu uruchamia cały program
 		Question q1 = new Question("1+2 = ?", "1", "2", "3", "4", new Answer("3"));
 		Question q2 = new Question("2+3 = ?", "4", "5", "6", "7", new Answer("5"));
 		
